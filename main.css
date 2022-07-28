@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', sans-serif !important;
+}
+
+#header-web {
+    display: flex;
+    font-size: 20px;
+    transition: 0.3s;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav i {
+    font-size: 25px;
+
+}
+
+nav i:hover {
+    opacity: 0.65;
+}
+
+.pill-nav a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    color: black;
+}
+
+.icon {
+    float: right;
+    top: -300px;
+}
+
+.modal-icon {
+    align-items: center;
+    right: 10px;
+}
+.z-index{
+    z-index: 0;
+}
+/* nav  */
+#banner {
+    height: 100vh;
+    background: url(image/nati-melnychuk-5ngCICAXiH0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.content-banner {
+    width: 300px;
+    /* margin-bottom: 300px; */
+    margin-right: 80px;
+}
+
+/* banner */
+.section-2 {
+    padding: 100px 0;
+    height: 704px;
+}
+#carouselExampleControls{
+    transition: 0.3s;
+}
+
+.carousel-1 {
+    margin: 0 auto !important;
+}
+
+.text-2 {
+    padding: 0 30px;
+}
+
+.text-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section-2 */
+.text-3 {
+    height: 500px;
+    margin-bottom: 100px;
+    background-image: url(image/sec-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-3 a {
+    padding: 5px 25px !important;
+    opacity: 1 !important;
+}
+
+/* section-3 */
+#section-4 {
+    height: 500px;
+    margin-bottom: 100px 0;
+}
+
+.earring {
+    border: 0 !important;
+}
+
+/* section-4 */
+#section-5 {
+    height: 400px;
+    background: url(image/sect-5.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.65;
+    margin-bottom: 100px;
+}
+
+.sect5-text {
+    padding: 20px;
+}
+
+/* section-5 */
+.sect-6 {
+    height: 440px;
+    margin-bottom: 100px;
+    padding: 20px 0;
+}
+
+.img-trend {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+}
+
+.img-trend img {
+    width: 69% !important;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sect-6 a {
+    background-color: rgb(169, 169, 169);
+    border: 0 !important;
+}
+
+/* section-6 */
+
+#section-7 {
+    margin-bottom: 100px;
+    padding: 20px 0;
+}
+
+.text-7 {
+    margin-left: 60px !important;
+}
+
+.text-7 a {
+    background-color: rgb(169, 169, 169);
+    border: 0 !important;
+}
+
+/* section-7 */
+
+#section-8 {
+    margin-bottom: 100px;
+}
+
+.item1 {
+    background: url(image/inst/inst-1.jpg);
+    background-size: cover;
+}
+
+.item2 {
+    background: url(image/inst/inst-2.jpg);
+    background-size: cover;
+}
+
+.item3 {
+    background: url(image/inst/inst-3.jpg);
+    background-size: cover;
+}
+
+.item4 {
+    background: url(image/inst/inst-4.jpg);
+    background-size: cover;
+}
+
+.item5 {
+    background: url(image/inst/inst-5.jpg);
+    background-size: cover;
+}
+
+.item6 {
+    background: url(image/inst/inst-6.jpg);
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px 350px;
+    grid-gap: 20px;
+}
+
+.item:hover {
+    opacity: 0.65;
+}
+
+/* section-8 */
+#section-9 {
+    margin-bottom: 100px;
+}
+
+#section-9 i {
+    color: rgb(40, 40, 40);
+}
+
+/* section-9 */
+#section-10 {
+    margin-bottom: 100px;
+}
+
+.modal-contact {
+    align-items: center;
+}
+
+textarea {
+    border: 1px solid #ced4da !important;
+    border-radius: 3px;
+    padding: 0.375rem 0.75rem !important;
+
+}
+
+/* section-10 */
+footer {
+    padding-top: 30px;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none !important;
+
+}
+
+footer h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.modal-FAQs {
+    align-items: center;
+
+}
+
+.line {
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+    width: 1110px;
+    height: 0px;
+    margin-top: 50px;
+}
+
+.end {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.social:hover {
+    opacity: 0.65;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.image-logo:hover {
+    opacity: 0.7 !important;
+}
+
+
+/* about-us */
+#section-about-1 {
+    padding: 100px;
+}
+
+#section-about-1 img {
+    border-radius: 30% 0;
+}
+
+#section-about-2 {
+    padding: 100px;
+}
+
+.img-about-1 img {
+    border-radius: 30% 0 0;
+}
+
+.icon-about i {
+    font-size: 30px;
+}
+
+/* about-us */
+
+/* shop */
+
+#earring-shop {
+    padding: 100px 0;
+}
+
+.card {
+    box-shadow: 2px 2px 2px rgb(213, 213, 213);
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+/* earring */
+
+  
